@@ -3,7 +3,7 @@ package ch.comem.quinteirosm.serie1;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ex8 {
+public class ex08 {
     public static void main(String[] args) {
         Scanner userInput1 = new Scanner(System.in).useLocale(new Locale("fr-CH"));
         System.out.println("Note obtenue à l'examen intermédiaire :");

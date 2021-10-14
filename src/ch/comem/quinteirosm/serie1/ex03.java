@@ -1,6 +1,6 @@
 package ch.comem.quinteirosm.serie1;
 
-public class ex3 {
+public class ex03 {
     public static void main(String[] args) {
         int nombreDeTours2 = 3;
         double tempsEnMinParTour2 = 1.5;

@@ -1,6 +1,6 @@
 package ch.comem.quinteirosm.serie1;
 
-public class ex5 {
+public class ex05 {
     public static void main(String[] args) {
         int x = 1;
         int y = 2;

@@ -3,7 +3,7 @@ package ch.comem.quinteirosm.serie1;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ex7 {
+public class ex07 {
     public static void main(String[] args) {
         Scanner userInput1 = new Scanner(System.in).useLocale(new Locale("fr-CH"));
         System.out.println("Quelle est la largeur de la pièce :");
