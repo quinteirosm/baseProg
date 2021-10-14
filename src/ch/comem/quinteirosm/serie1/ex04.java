@@ -8,13 +8,25 @@ public class ex04 {
     System.out.println("Avant");
     System.out.println("x=" + x);
     System.out.println("y=" + y);
-
-    int temp = x;
-    x=y;
-    y=temp;
+    Entier a = new Entier(x);
+    Entier b = new Entier(y);
+    swap(a, b);
 
     System.out.println("Après");
-    System.out.println("x=" + x);
-    System.out.println("y=" + y);
+    System.out.println("x=" + a.value);
+    System.out.println("y=" + b.value);
+
+  }
+
+  public static void swap(Entier x,Entier y){
+    int temp = x.value;
+    x.value=y.value;
+    y.value=temp;
+  }
+}
+class Entier{
+  int value;
+  Entier(int x){
+    this.value=x;
   }
 }
