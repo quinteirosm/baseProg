@@ -16,9 +16,7 @@ public class ex11_boolean {
     boolean resultat=false;
     if(nombre%diviseur==0){
       resultat=true;
-    }else if(nombre%diviseur>0){
-      resultat=false;
     }
 
-    System.out.println(nombre+" est-il entièrement divisible par "+diviseur+" ? "+(resultat ? "Oui !":"Non !"));
+    System.out.println(nombre+" est-il entièrement divisible par "+diviseur+" ? "+(resultat ? "Oui !" : "Non !"));
   }}
