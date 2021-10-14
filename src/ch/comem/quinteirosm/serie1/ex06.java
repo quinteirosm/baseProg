@@ -9,7 +9,7 @@ public class ex06 {
     System.out.println("Veuillez saisir la valeur du rayon du cercle :");
     double rayon = userInput.nextDouble();
 
-    double aire=Math.PI*(Math.pow(rayon,2));
+    double aire=Math.PI*Math.pow(rayon,2);
     double perimetre=2*Math.PI*rayon;
 
     System.out.println("La surface du cercle est de :"+aire);
