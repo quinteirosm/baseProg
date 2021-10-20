@@ -10,9 +10,9 @@ public class ex02_verifMin {
         char caractere = userInput.next().charAt(0);
 
         if(Character.isLowerCase(caractere)){
-            System.out.println("Ce caractère est en minuscule.");
+            System.out.println("Cette lettre est une minuscule.");
         }else{
-            System.out.println("Ce caractère est en majuscule !");
+            System.out.println("Cette lettre est une majuscule!");
         }
     }
 }
