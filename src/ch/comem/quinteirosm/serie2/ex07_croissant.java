@@ -21,17 +21,17 @@ public class ex07_croissant {
     double deuxieme=0;
     double troisieme=0;
 
-    if(nombre1<=nombre2) {
-      if(nombre2<=nombre3){
+    if(nombre1 <= nombre2) {
+      if(nombre2 <= nombre3){
         premier = nombre1;
         deuxieme = nombre2;
         troisieme = nombre3;
-      }else if(nombre3<=nombre1){
-        premier=nombre3;
-        deuxieme=nombre1;
-        troisieme=nombre2;
+      }else if(nombre3 <= nombre1){
+        premier = nombre3;
+        deuxieme = nombre1;
+        troisieme = nombre2;
       }
-    }else if(nombre1<=nombre3) {
+    }else if(nombre1 <= nombre3) {
       if (nombre3 <= nombre2) {
         premier = nombre1;
         deuxieme = nombre3;
@@ -41,14 +41,14 @@ public class ex07_croissant {
         deuxieme = nombre1;
         troisieme = nombre3;
       }
-    }else if(nombre2<=nombre3 && nombre3<=nombre1){
-      premier=nombre2;
-      deuxieme=nombre3;
-      troisieme=nombre1;
+    }else if(nombre2 <= nombre3 && nombre3 <= nombre1){
+      premier = nombre2;
+      deuxieme = nombre3;
+      troisieme = nombre1;
     }else{
-      premier=nombre3;
-      deuxieme=nombre2;
-      troisieme=nombre1;
+      premier = nombre3;
+      deuxieme = nombre2;
+      troisieme = nombre1;
     }
 
     System.out.println("Vous avez saisi les valeurs suivantes : "+premier+", "+deuxieme+" et "+troisieme);
