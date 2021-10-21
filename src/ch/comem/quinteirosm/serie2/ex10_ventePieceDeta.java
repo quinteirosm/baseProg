@@ -12,15 +12,15 @@ public class ex10_ventePieceDeta {
         System.out.println("Quel est le prix unitaire de la pièce ?");
         double prixUnitaire = userInput.nextDouble();
 
-        double rabais;
-        double tva;
+        double rabais=0;
+        double tva=0;
 
-        if(pieces>=50){
-            rabais=3;
+        if(pieces>=1000){
+            rabais=10;
         }else if(pieces>=100){
             rabais=5;
-        }else if(pieces>=1000){
-            rabais=10;
+        }else{
+            rabais=3;
         }
 
         if(pieces>500){
@@ -31,8 +31,9 @@ public class ex10_ventePieceDeta {
             tva=8.2;
         }
 
-        double prixFinal = ((pieces*prixUnitaire)*tva)-(prixUnitaire/(100*rabais));
+        double prix=pieces*prixUnitaire;
+        double prixFinal=((prix/(100+rabais+tva))*100);
 
-        System.out.printf("Le prix TTC pour %.2f pièces à %.2f avec un rabais de %.2f et un taux TVA à %.2f % sera de %.2f \n", pieces, prixUnitaire, rabais, tva, prixFinal);
+        System.out.println("Le prix TTC pour "+pieces+" pièces à "+prixUnitaire+" CHF avec un rabais de "+rabais+"% et un taux TVA à "+tva+"% sera de: "+prixFinal+" CHF");
     }
 }
