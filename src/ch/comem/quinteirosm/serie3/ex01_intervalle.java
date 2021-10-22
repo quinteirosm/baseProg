@@ -12,9 +12,9 @@ public class ex01_intervalle {
             userInput = input.nextDouble();
 
             if(userInput < 1 || userInput > 3){
-                System.out.println("La valeur "+userInput+" ne fait pas partie de l'intervalle spécifiée.. \r\n");
+                System.out.println("La valeur "+userInput+" ne fait pas partie de l'intervalle spécifiée.. \n");
             }else{
-                System.out.println("La valeur : "+userInput+" est correcte :-) \r\n");
+                System.out.println("La valeur : "+userInput+" est correcte :-) \n");
             }
         }
     }
