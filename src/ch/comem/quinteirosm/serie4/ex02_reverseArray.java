@@ -9,6 +9,7 @@ public class ex02_reverseArray {
         for(int i = 0; i<=tableau.length-1; ++i){
             tableau[i]=i+1;
         }
+
         System.out.println("Avant: "+Arrays.toString(tableau));
 
         for(int i=0; i<=(tableau.length-1)/2; i++){
