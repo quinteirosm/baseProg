@@ -2,7 +2,7 @@ package ch.comem.quinteirosm.questionnaire;
 
 import java.util.Scanner;
 
-public class q05 {
+public class Q05 {
     public static void main(String[] args) {
         double [] temps=new double[10];
         double diffInt=0;

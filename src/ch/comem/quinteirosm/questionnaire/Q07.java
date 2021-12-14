@@ -2,7 +2,7 @@ package ch.comem.quinteirosm.questionnaire;
 import java.util.Scanner;
 import java.util.Locale;
 
-public class q07 {
+public class Q07 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in).useLocale(new Locale("fr-CH"));
 

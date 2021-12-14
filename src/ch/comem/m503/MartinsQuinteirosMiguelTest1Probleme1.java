@@ -3,7 +3,7 @@ package ch.comem.m503;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class MartinsQuinteirosMiguelProbleme1 {
+public class MartinsQuinteirosMiguelTest1Probleme1 {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in).useLocale(new Locale("fr-CH"));
         String choixBoisson;
