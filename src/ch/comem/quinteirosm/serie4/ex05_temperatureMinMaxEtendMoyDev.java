@@ -24,6 +24,6 @@ public class ex05_temperatureMinMaxEtendMoyDev {
         }
         deviation/=temperatures.length;
 
-        System.out.printf("Max: %.2f\nMin: %.2f\nEtendue: %.2f\nMoyenne des temperatures: %.2f\nDeviation moyenne: %.2f\n", grandNb, petitNb,(grandNb-petitNb),moyenne,deviation);
+        System.out.printf("Max: %.1f\nMin: %.1f\nEtendue: %.1f\nMoyenne des temperatures: %.2f\nDeviation moyenne: %.2f\n", grandNb, petitNb,(grandNb-petitNb),moyenne,deviation);
     }
 }

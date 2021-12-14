@@ -3,7 +3,7 @@ package ch.comem.quinteirosm.serie5_Suite;
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Probleme02 {
+public class Probleme02_func {
     public static void main(String[] args) {
         Scanner userInput = new Scanner(System.in).useLocale(new Locale("fr-CH"));
         System.out.println("Combien de villes voulez-vous saisir ?");

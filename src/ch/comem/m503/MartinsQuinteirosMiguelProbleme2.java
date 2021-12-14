@@ -1,4 +1,4 @@
-package ch.comem.quinteirosm.questionnaire.m503;
+package ch.comem.m503;
 
 import java.util.Locale;
 import java.util.Scanner;
