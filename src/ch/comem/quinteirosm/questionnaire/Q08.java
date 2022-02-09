@@ -10,25 +10,30 @@ public class Q08 {
         tab[1][1] = 8;
         tab[1][2] = 7;
 
-        int taille = rendTaille(tab, 2);
         afficheTab(tab);
-        System.out.println(taille);
+
+        int taille = rendTaille(tab, 2);
     }
 
     private static void afficheTab(int[][] tab) {
         for (int i=0; i<tab.length; i++){
             for (int j=0;j<tab[0].length;j++){
-                System.out.println(tab[i][j]);
-                System.out.println(" ");
+                System.out.print(tab[i][j]);
+                System.out.print(" ");
             }
+            System.out.println();
         }
     }
 
     public static int rendTaille(int[][] tab, int  i) {
-        int taille=0;
+        int length=0;
         if(i==1){
-
+            length = tab.length;
+        }else if(i==2){
+            length = tab.length;
+        }else if(i==2){
+            length = tab.length;
         }
-        return taille;
+        return length;
     }
 }
