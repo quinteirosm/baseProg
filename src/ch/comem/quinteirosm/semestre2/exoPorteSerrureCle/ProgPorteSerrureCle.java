@@ -3,7 +3,7 @@ package ch.comem.quinteirosm.semestre2.exoPorteSerrureCle;
 /**
  * Permet de tester nos différentes classes (Fabriques d'objets)
  */
-public class progPorteSerrureCle {
+public class ProgPorteSerrureCle {
     public static void main(String[] args) {
         System.out.println();
         System.out.println("Porte 1");
