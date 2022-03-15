@@ -1,4 +1,4 @@
-package ch.comem.quinteirosm.semestre2;
+package ch.comem.quinteirosm.semestre2.exoGourde;
 
 public class Gourde {
             private String color;

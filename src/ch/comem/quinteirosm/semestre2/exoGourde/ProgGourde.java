@@ -1,6 +1,6 @@
-package ch.comem.quinteirosm.semestre2;
+package ch.comem.quinteirosm.semestre2.exoGourde;
 
-public class ProgPOO {
+public class ProgGourde {
     public static void main(String[] args) {
         Gourde uneGourde = new Gourde();
 
